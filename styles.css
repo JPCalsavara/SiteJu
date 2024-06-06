@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Montaga&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --background_body: #178c33;
+  --background_carrossel: #e92424;
+  --background_nav: #e32121;
+  --background_main: #e92121;
+}
+
+body {
+  font-family: "Montaga", sans-serif;
+  color: white;
+  background-color: var(--background_body);
+  background-image: url("//www.pexels.com/pt-br/foto/advento-surgimento-lancamento-bola-5485986/");
+  text-align: center;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 5%;
+  margin: 0 auto;
+  background-color: var();
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+}
+.space p,
+h1,
+h2,
+h3 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding: 0 auto;
+}
+
+.nav {
+  background-color: var(--background_nav);
+  padding-block: var(--background_nav);
+  /* border-color: black; */
+}
+nav p {
+  justify-content: center;
+  display: inline-block;
+  margin: 5px auto;
+  padding: 0 20px;
+}
+
+.Titulo {
+  font-family: "Loloita Neo";
+  padding: 10px, 0;
+  text-align: center;
+}
+
+.Titulo section {
+  background-color: var(--background_carrossel);
+  padding: 20px;
+}
+
+.arvores {
+  width: 200px;
+  height: 355.5px;
+}
+
+.sec_tree section {
+  display: inline-block;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sec_tree {
+  background-color: var(--background_carrossel);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ju_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid var(--background_main);
+}
+
+.sobre {
+  padding: 20px;
+}
+
+.footer section {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+footer {
+  background-color: var(--background_nav);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: greenyellow;
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+a:active {
+  color: greenyellow;
+}
+
+.product-arvores {
+  background-color: var(--background_carrossel);
+  /* background-image: ; */
+  padding: 150px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.product-guirlandas {
+  background-color: var(--background_carrossel);
+  /* background-image: ; */
+  padding: 150px;
+  margin-bottom: 20px;
+}
